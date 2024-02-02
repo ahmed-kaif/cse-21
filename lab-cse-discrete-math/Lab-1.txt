@@ -1,0 +1,11 @@
+1. Truth Table generation
+cols: p , q , p ^ q, p dis q, p->q, p <-> q, P xor q
+
+2. Generate a truth table to find whether the following two are equivalent or not
+ p -> (q ^ r)  <=> (p -> q) ^ r
+
+Lab report:
+Name:
+Code: font size : 10-12
+Output: console white background
+Analysis:

@@ -1,0 +1,10 @@
+* Problem 1 
+  Input set A,B 
+  A U B, A intersection B, A', B' A - B, B - A, A xor B 
+
+* Problem 2 
+  f: A -> B 
+  f(x) = x^3 + x^2 - x - 1 
+ - One-to-one?
+  - Onto?
+
