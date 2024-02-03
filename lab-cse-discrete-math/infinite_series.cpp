@@ -5,7 +5,7 @@ int main(){
   int a = 1;
   float r = 0.5;
 
-  cout << "1 + 1/2 + 1/4 + 1/8 + 1/16 + ... = " << a / (1 - r) << endl;
+  cout << "Sum = " << a / (1 - r) << endl;
 
 
   // int i = 1;
