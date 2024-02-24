@@ -5,7 +5,7 @@
 * Problem 5 
   - Greedy scheduling
     n = number of talks
-    
+    input:
     5 
     8:00 8:50 
     8:30 9:00 
@@ -13,3 +13,4 @@
 * Problem 3 
   - Bubble sort vs quick sort 
   - minimum 7 points 
+  - plot the data into a graph (sample no. vs time)
