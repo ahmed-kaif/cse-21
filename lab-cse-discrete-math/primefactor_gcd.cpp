@@ -37,10 +37,13 @@ int main() {
   cout << endl;
 
   int gcd = 1;
-  for (auto x : primefactor_a) {
-    int factor = x.first;
-    int power = min(x.second, primefactor_b[factor]);
-    gcd = gcd * pow(factor, power);
-  }
+  if (saved_a == 0 || saved_b == 0) {
+    gcd = (saved_a) ? saved_a : saved_b;
+  } else
+    for (auto x : primefactor_a) {
+      int factor = x.first;
+      int power = min(x.second, primefactor_b[factor]);
+      gcd = gcd * pow(factor, power);
+    }
   cout << "GCD: " << gcd << endl;
 }
