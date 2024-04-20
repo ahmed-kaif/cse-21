@@ -18,6 +18,7 @@ int main(){
   }
   for(int i = 2; i < sieve.size(); i++){
     if(sieve[i]) cout << i << " ";
+    if(i%10 == 0) cout << endl;
   }
   
   cout << "\nEnter n: ";
