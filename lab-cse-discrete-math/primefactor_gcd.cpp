@@ -14,7 +14,7 @@ int main() {
   int saved_b = b;
 
   for (int i = 2; a > 1; i++) {
-    while (a % i == 0) {
+    while (a % i == 0) { // divide a by i the highest number possible.
       primefactor_a[i]++;
       a = a / i;
     }
