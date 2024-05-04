@@ -22,5 +22,5 @@ int main() {
   cin >> b;
   int g = gcd(a, b, s, t);
   cout << "gcd: " << g << endl;
-  cout << "s: "<< s << " t: "<< t << endl;
+  cout << "s: " << s << " t: " << t << endl;
 }
